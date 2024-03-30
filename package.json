@@ -8,6 +8,17 @@
 		      "medusa": "your_medusa_start_command"
 		        },
 			  "dependencies": {
-			      // your dependencies
+			      "dependency1": {
+			            "version": "^1.0.0",
+				          "description": "Description of dependency1"
+					      },
+					          "dependency2": {
+						        "version": "^2.0.0",
+							      "description": "Description of dependency2"
+							          },
+								      "dependency3": {
+								            "version": "^3.0.0",
+									          "description": "Description of dependency3"
+										      }
 			        }
 				}
