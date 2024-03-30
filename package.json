@@ -1,0 +1,13 @@
+{
+  "name": "your-nodejs-app",
+    "version": "1.0.0",
+      "scripts": {
+          "start": "npm run build && medusa migrations run && medusa start",
+	      "migrate": "your_migration_command",
+	          "build": "your_build_command",
+		      "medusa": "your_medusa_start_command"
+		        },
+			  "dependencies": {
+			      // your dependencies
+			        }
+				}
